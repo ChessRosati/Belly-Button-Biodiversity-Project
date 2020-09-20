@@ -94,7 +94,7 @@ function makePlots(subjectID){
  * @param {*} subjectID 
  */
 function fillInfo(subjectID) {
-    d3.json("../../data/samples.json").then((data) => {
+    d3.json("../samples.json").then((data) => {
         
         var metadataField = d3.select("#sample-metadata");
 
